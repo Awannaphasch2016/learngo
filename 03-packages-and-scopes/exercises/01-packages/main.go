@@ -8,6 +8,11 @@
 
 package main
 
+import "rsc.io/quote"
+import x "learngo-03"
+// import "/bye"
+
+
 // ---------------------------------------------------------
 // EXERCISE: Use your own package
 //
@@ -27,6 +32,16 @@ package main
 //  goodbye
 // ---------------------------------------------------------
 
+// func greet(){
+// 	fmt.Println("hello there")
+// }
+// func bye(){
+// 	fmt.Println("bye")
+// }
+
+
 func main() {
 	// call functions of the other files here
+	x.greet()
+	// bye()
 }
